@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #000;
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    position: relative;
+    color: #fff;
+    text-shadow: 0 0 10px #ff006c, 0 0 10px #ff006c, 0 0 0 #ff006c, 0 0 10px #ff417d;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Montserrat";
+    text-shadow: 0 0 10px #ff006c, 0 0 10px #ff006c, 0 0 100px #ff006c, 0 0 100px #ff006c;
+}
+
+strong {
+    font-style: initial !important;
+}
